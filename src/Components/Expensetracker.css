@@ -1,0 +1,89 @@
+.custom{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: center;
+}
+
+body,
+.dark-theme {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.card-dark {
+  background-color: #1f1f1f;
+  border: 1px solid #333;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease;
+}
+
+.card-dark:hover {
+  transform: scale(1.01);
+}
+
+.card-header {
+  background-color: #2a2a2a;
+  color: #ffcc00;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-bottom: 1px solid #444;
+}
+
+.input-group-text,
+.form-select,
+.form-control,
+textarea {
+  background-color: #2e2e2e;
+  color: #f5f5f5;
+  border: 1px solid #444;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #aaa;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #ffcc00;
+  box-shadow: 0 0 5px #ffcc00;
+}
+
+.btn-outline-light {
+  border-color: #ffcc00;
+  color: #ffcc00;
+  transition: 0.3s ease;
+}
+
+.btn-outline-light:hover {
+  background-color: #ffcc00;
+  color: #000;
+}
+
+.btn-outline-info:hover {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.table-dark {
+  color: #fff;
+  background-color: #212529;
+}
+
+.table-dark thead th {
+  color: #ffcc00;
+}
+
+.heading {
+  background: linear-gradient(to right, #1c1c1c, #2e2e2e);
+  padding: 10px;
+  color: #ffcc00;
+  border-radius: 5px;
+}
