@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './ExpenseTracker.css'; // Link to external dark-theme CSS
+import 'src/Components/ExpenseTracker.css'; // Link to external dark-theme CSS
 
 function ExpenseTracker() {
   const [totalBalance, setTotalBalance] = useState(0);
